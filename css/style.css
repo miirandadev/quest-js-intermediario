@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto";
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: 100vh 100vh;
+}
+
+main {
+    display: flex;
+    padding: 12px 50px;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    min-width: 500px;
+    font-weight: 900;
+    line-height: 35px;
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 500px;
+    margin-top: 11px;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    width: 540px;
+    height: 580px;
+    border-radius: 5px;
+}
+
+input {
+    margin-top: 3%;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid ;
+    border-color: #ccc;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    padding: 1%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+textarea {
+    padding: 10px;
+    margin-top: 3%;
+    width: 500px;
+    height: 100px;
+    resize: none;
+    border: 1px solid ;
+    border-color: #ccc;
+    border-radius: 7px;
+}
+
+textarea::placeholder {
+    padding: 1%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.warning {
+    font-size: 12px;
+    margin-top: 2%;
+    color: red;
+}
+
+.input-preenchido {
+    margin-top: 6%;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid ;
+    border-color: green;
+    padding-left: 10px;
+}
+
+.input-error {
+    margin-top: 6%;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid ;
+    border-color: red;
+    padding-left: 10px;
+}
+
+.campo-obrigatorio {
+    color: red;
+    font-size: 12px;
+}
+
+.form p.required-field {
+    margin-top:5%;
+}
+
+input.submit {
+    background-color: rgba(60, 204, 135, 1);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: none;
+    height:50px;
+}
+
+input.submit:hover {
+    cursor: pointer;
+    background-color: rgb(56, 168, 114);
+}

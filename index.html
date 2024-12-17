@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Quest Formulário</title>
+</head>
+<body>
+    <main>
+        <section class="text">
+            <h1>
+                Ficou com dúvida? <br> nos mande uma mensagem
+            </h1>
+
+            <p>
+                caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em contato em menos de 24h
+            </p>
+
+        </section>
+
+        <section class="form">
+            <form action="./index.html">
+
+                <div id="required-field">
+                    <input type="text" id="nome"  placeholder="Nome completo *">
+                    <p class="warning"></p>
+                </div>
+
+                <div id="required-field">
+                    <input type= "email" id="email "placeholder="Email *">
+                    <p class="warning"></p>
+                </div>
+
+                <div id="required-field">
+                    <input type="number" id="telefone" placeholder="Telefone *">
+                    <p class="warning"></p>
+                </div>
+
+                <div id="required-field">
+                    <textarea name="message" id="message" placeholder="Mensagem *"></textarea>
+                    <p class="warning"></p>
+                </div>
+
+                <p class="required-field">*campos obrigatórios<p>
+                
+                <input class="submit" type="submit" id="btn-submit">
+            </form>
+        </section>
+    </main>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
